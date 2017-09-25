@@ -1,0 +1,17 @@
+.summary-name {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.summary-diploma {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.summary-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
