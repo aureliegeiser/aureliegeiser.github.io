@@ -7,17 +7,17 @@ highlighter: null
 markdown: kramdown
 extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
-url: https://aureliegeiser.github.io
+url: https://lecabdespaves.ch
 baseurl: ""
 
 title : La Cab 2520
 tagline: Physiotherapie
 author : 
   name : Le Cab
-  site: https://aureliegeiser.github.io
+  site: https://lecabdespaves.ch
   description :
   image : social-image.png
-  email : aureliegeiser@gmail.com
+  email : aurelie.jeanneret@gmail.com
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
@@ -27,7 +27,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : https://aureliegeiser.github.io
+production_url : https://lecabdespaves.ch
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -56,7 +56,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : https://aureliegeiser.github.io
+  BASE_PATH : https://lecabdespaves.ch
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -66,4 +66,4 @@ JB :
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
-  ASSET_PATH : https://aureliegeiser.github.io/assets/themes/bootstrap
+  ASSET_PATH : https://lecabdespaves.ch/assets/themes/bootstrap
