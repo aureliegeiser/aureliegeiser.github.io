@@ -251,39 +251,8 @@ title: Le Cab' des Pavés
   <div class="sub-title">
     <span>Nous trouver</span>
   </div>
-  <div id="map" style="height:600px;">
+  <img onclick="location.href='https://www.google.ch/maps/place/Rue+du+Tempé+3,+2520+La+Neuveville/@47.0636075,7.0890849,17z/data=!3m1!4b1!4m6!3m5!1s0x478e0f8df3760465:0x4205be933af101c5!8m2!3d47.0636075!4d7.0916598!16s%2Fg%2F11sspsq2c9?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D';" src="{{ BASE_PATH }}/assets/images/map.png" alt="height:600px" href="">
   </div>
 </div>
 </div>
-
-<script>
- function initMap() {
-   const lecab = { lat: 47.0635922, lng: 7.0916545 };
-
-   const map = new google.maps.Map(document.getElementById("map"), {
-     zoom: 17,
-     center: lecab,
-   });
-   const contentString = "<h5>Le Cab' des Pavés</h5>" +
-                         "<div>Rue du Tempé 3</div>" +
-                         "<div>2520 La Neuveville</div>";
-   const infowindow = new google.maps.InfoWindow({
-     content: contentString,
-   });
-
-   const marker = new google.maps.Marker({
-     position: lecab,
-     map: map,
-   });
-
-   infowindow.open({
-     anchor: marker,
-     map,
-     shouldFocus: false,
-   });
- }
-
- window.initMap = initMap;
-</script>
-<!-- Content area end -->
 </div>
